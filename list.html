@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>list</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/setHomeSetFav.js" charset="gb2312"></script>
+</head>
+<body>
+<div class="top">
+    <div class="top_content">
+        <ul>
+            <li><a href="javascript:SetHome(window.location)">设为首页</a></li>
+            <li><a href="javascript:AddFavorite(window.location,document.title)">加入收藏</a></li>
+            <li><a href="#">联系我们</a></li>
+            <!-- window.location用于获取当前页面的地址，即URL-->
+        </ul>
+    </div>
+</div>
+<div class="wrap">
+    <div class="logo">
+        <div class="logo_left">
+            <img src="images/logo.jpg" alt="慕课网">
+        </div>
+        <div class="logo_right">
+            <img src="images/tel.jpg" alt="服务热线">
+
+            <p class="contact">24小时服务热线：<span class="tel">123-456-789</span></p>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="nav_mid">
+            <div class="nav_mid_left">
+                <ul>
+                    <li><a href="demo.html">首页</a></li>
+                    <li><a href="list.html">关于慕课</a></li>
+                    <li><a href="list.html">新闻动态</a></li>
+                    <li><a href="list.html">课程中心</a></li>
+                    <li><a href="list.html">在线课程</a></li>
+                    <li><a href="list.html">人才招聘</a></li>
+                    <!-- list-style:list-style-image||list-style-position||list-style-type;当List-style-image和list-style-type都被指定
+                    时，list-style-image获得优先权，除非list-style-image设置为none或者图片不显示；list-style-position:outside||inside;当不使用项目符号
+                    时可简写设置list-style:none;-->
+                </ul>
+            </div>
+            <div class="nav_mid_right">
+                <form action="" method="post">
+                    <input class="search_text">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="pics">
+        <img src="images/ad2.jpg">
+    </div>
+    <div class="news_container">
+        <div class="news_type">
+            <h2>新闻中心</h2>
+            <ul>
+                <li><a href="list.html">公司新闻</a></li>
+                <li><a href="list.html">行业新闻</a></li>
+                <li><a href="list.html">媒体报道</a></li>
+                <li><a href="list.html">活动专题</a></li>
+                <li><a href="list.html">精彩视频</a></li>
+                <li><a href="list.html">资源下载</a></li>
+                <li><a href="list.html">公司内刊</a></li>
+            </ul>
+        </div>
+        <div class="news_content">
+            <h2>新闻中心</h2>
+            <div class="news_list">
+            <ul>
+                <li>
+                    <span>2014-6-1</span><a href="news.html">【慕客访谈 用户篇】“有为屌丝”在路上</a>
+                </li>
+                <li>
+                    <span>2014-6-1</span><a href="news.html">【有奖活动】给父亲的三行书信</a>
+                </li>
+                <li>
+                    <span>2014-5-30</span><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a>
+                </li>
+                <li>
+                    <span>2014-5-28</span><a href="news.html" title="aa">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a>
+                </li>
+                <li>
+                    <span>2014-6-1</span><a href="news.html">【慕客访谈 用户篇】“有为屌丝”在路上</a>
+                </li>
+                <li>
+                    <span>2014-6-1</span><a href="news.html">【有奖活动】给父亲的三行书信</a>
+                </li>
+                <li>
+                    <span>2014-5-30</span><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a>
+                </li>
+                <li>
+                    <span>2014-5-28</span><a href="news.html" title="aa">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a>
+                <li>
+                    <span>2014-6-1</span><a href="news.html">【慕客访谈 用户篇】“有为屌丝”在路上</a>
+                </li>
+                <li>
+                    <span>2014-6-1</span><a href="news.html">【有奖活动】给父亲的三行书信</a>
+                </li>
+                <li>
+                    <span>2014-5-30</span><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a>
+                </li>
+                <li>
+                    <span>2014-5-28</span><a href="news.html" title="aa">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a>
+                </li>
+                </li>
+            </ul>
+            </div>
+            <div class="page_num">
+                <a href="#">首页</a><a href="#">&lt;</a><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">...</a>
+                <a href="#">&gt;</a><a href="#">末页</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="copyright">
+    <div class="copyright_content">
+        <ul>
+            <li><a href="#">关于</a>
+                <ul>
+                    <li><a href="#">品牌故事</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">加入我们</a></li>
+                    <li><a href="#">版权声明</a></li>
+                </ul>
+            </li>
+            <li><a href="#">课程</a>
+                <ul>
+                    <li><a href="#">PHP开发</a></li>
+                    <li><a href="#">前端开发</a></li>
+                    <li><a href="#">JAVA开发</a></li>
+                    <li><a href="#">Android开发</a></li>
+                </ul>
+            </li>
+            <li><a href="#">留言</a>
+                <ul>
+                    <li><a href="#">新浪微博</a></li>
+                    <li><a href="#">腾讯微博</a></li>
+                    <li><a href="#">企业微信</a></li>
+                    <li><a href="#">QQ空间</a></li>
+                </ul>
+            </li>
+            <li><a href="#">关注</a>
+                <ul>
+                    <li><a href="#">意见反馈</a></li>
+                    <li><a href="#">问题留言</a></li>
+                    <li><a href="#">媒体联络</a></li>
+                    <li><a href="#">在线客服</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img src="images/weixin.png">微信关注</a>
+                <ul>
+                    <li><img src="images/qrcode.jpg"></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
