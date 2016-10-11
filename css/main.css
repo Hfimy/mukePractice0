@@ -118,11 +118,12 @@ main {
 }
 
 .search {
+    float:right;
     width: 220px;
     height: 25px;
     border: solid 1px #fff;
     margin-top: 6px;
-    margin-left: 80px;
+    margin-right: 50px;
     background: url(../images/search.jpg) right center no-repeat;
     background-color: #fff;
     text-indent: 15px;
@@ -420,17 +421,15 @@ footer {
     line-height: 30px;
     text-indent: 2em;
     overflow: auto;
-    text-indent: 20px;
+    padding:15px;
 }
-.news-article h3{margin:10px;}
 .news-title {
     font-size: 20px;
     text-align: center;
+    margin-bottom:10px;
 }
 .news-pub{
     color: #999;
     text-align: center;
 }
-.app-image img{width:500px;height:420px;display:block;}
-.app-image {width:500px;height:420px;margin:0 auto;}
-
+.app-image img{width:500px;height:420px;display:block;margin:10px auto;}
